@@ -6,8 +6,9 @@ import yt_dlp
 
 bot = Bot(token="7186100215:AAGFfQ_L2odWQRgP5kHFhiDUWDS088nCrdU")
 
-dp = Dispatcher()
 
+
+dp = Dispatcher()
 
 @dp.message(Command('start'))
 async def process_start_command(message: types.Message):
