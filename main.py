@@ -4,7 +4,7 @@ from aiogram.filters.command import Command
 import os
 import yt_dlp
 
-bot = Bot(token="7186100215:AAGFfQ_L2odWQRgP5kHFhiDUWDS088nCrdU")
+bot = Bot(token="")
 
 
 
